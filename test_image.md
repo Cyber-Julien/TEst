@@ -48,5 +48,20 @@ modification du fichier /etc/login.defs
 Modification du fichier /etc/pam.d/common-password
 ![image](https://github.com/user-attachments/assets/29a2259a-4da6-412b-b3f2-b6589d9cb6a4)
 
-chage -l user1
-test du mot de passe "mypasw" qui ne remplit pas les condition
+chage -l julien
+![image](https://github.com/user-attachments/assets/22294ce7-d11a-4922-a6c3-dc534fc2aae6)
+
+test du mot de passe "mypasw" qui ne remplit pas les conditions
+![image](https://github.com/user-attachments/assets/55e0c95b-bc36-48ff-804c-a27f8dbb2c3e)
+
+test du mot de passe "mypasw0"
+![image](https://github.com/user-attachments/assets/080d5af3-f6cf-4660-950a-233dd1c82ecd)
+
+test du mot de passe "Mypasw0"
+![image](https://github.com/user-attachments/assets/cf07ea35-f9cd-416c-ab7c-fd144ba6150c)
+
+Les régles s'appliquent! Nous allons maintenant rentrer un mot de passe qui respectes toutes ses régles: "$up3rP@sswd"
+![image](https://github.com/user-attachments/assets/89039488-3254-4a28-acda-ee33ccb03420)
+
+Le mot de passe est accepté car il respecte notre politique de mot de passe!
+(Note: dans l'absolu il faudrait egalement éviter le Leap Speak)
