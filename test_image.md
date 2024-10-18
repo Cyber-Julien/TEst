@@ -74,3 +74,6 @@ Mise en place des régles avec la commande visudo :
 
 Après quelques utilisations de la commande sudo, voici les log:
 ![image](https://github.com/user-attachments/assets/6f733327-3161-44aa-a258-9e653d31cdae)
+
+7) Scripting monitoring.sh + configuration cron
+![image](https://github.com/user-attachments/assets/5159ce7e-8e90-478e-ba21-1bd4d3de2e69)
