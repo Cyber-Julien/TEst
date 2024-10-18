@@ -63,6 +63,7 @@ test du mot de passe "Mypasw0"
 ![image](https://github.com/user-attachments/assets/cf07ea35-f9cd-416c-ab7c-fd144ba6150c)
 
 Les régles s'appliquent! Nous allons maintenant rentrer un mot de passe qui respectes toutes ses régles: "$up3rP@sswd"
+
 ![image](https://github.com/user-attachments/assets/89039488-3254-4a28-acda-ee33ccb03420)
 
 Le mot de passe est accepté car il respecte notre politique de mot de passe!
@@ -72,10 +73,17 @@ Le mot de passe est accepté car il respecte notre politique de mot de passe!
 entrée de l'utilisateur julien dans le groupe sudo: usermod -aG sudo julien
 création du dossier "/var/log/sudo/" pour accueillir les logs de la commandes sudo
 Mise en place des régles avec la commande visudo :
+
 ![image](https://github.com/user-attachments/assets/4e404482-834a-4929-b19e-bbe4fa30cc6b)
 
 Après quelques utilisations de la commande sudo, voici les log:
+
 ![image](https://github.com/user-attachments/assets/6f733327-3161-44aa-a258-9e653d31cdae)
 
 7) Scripting monitoring.sh + configuration cron
+8) 
 ![image](https://github.com/user-attachments/assets/5159ce7e-8e90-478e-ba21-1bd4d3de2e69)
+
+9) Creation clée ssh + push github
+
+![image](https://github.com/user-attachments/assets/f56c8f27-4281-4107-809f-2876df6fb9a6)
