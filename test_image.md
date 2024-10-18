@@ -15,9 +15,11 @@ mkdir data à la racine
 
 B) droits commande ls et getfacl data
 ls
+
 ![image](https://github.com/user-attachments/assets/1747c538-5efb-4c83-93f2-59d24a35aa1c)
 
 getfacl data
+
 ![image](https://github.com/user-attachments/assets/12e443d3-2410-43ef-a95a-f2af563543fd)
 
 5) Configuration SSH / UFW
