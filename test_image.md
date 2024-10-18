@@ -20,7 +20,7 @@ ls
 getfacl data
 ![image](https://github.com/user-attachments/assets/12e443d3-2410-43ef-a95a-f2af563543fd)
 
-5) Configuration SSH
+5) Configuration SSH / UFW
 A) Modification du fichier de config /etc/ssh/sshd_config
 ![image](https://github.com/user-attachments/assets/cf37c3a3-3f8a-459d-b8d3-6674eb9fa57e)
 
@@ -30,3 +30,23 @@ systemctl enable ssh
 Tentative de connection SSH depuis terminal Powershell sur le port 4242
 ![image](https://github.com/user-attachments/assets/c60440ec-af85-480c-a80d-aff8d30f7de6)
 
+Configuration des regles ufw 
+![image](https://github.com/user-attachments/assets/6214d121-ffe7-4205-8292-36bc4d80e218)
+
+6) Renommer la machine et Politique de mot de passe
+A) renommer la machine en "julienlinux"
+cat /etc/hostname
+![image](https://github.com/user-attachments/assets/71ad5bf5-422f-4ae0-92c9-40147b18beab)
+
+cat /etc/host
+![image](https://github.com/user-attachments/assets/1e302d7b-d07f-425b-a637-222dbbf4d09b)
+
+B) Politique de mot de passe
+modification du fichier /etc/login.defs 
+![image](https://github.com/user-attachments/assets/8998b618-0518-47f8-83b7-34446320c69b)
+
+Modification du fichier /etc/pam.d/common-password
+![image](https://github.com/user-attachments/assets/29a2259a-4da6-412b-b3f2-b6589d9cb6a4)
+
+chage -l user1
+test du mot de passe "mypasw" qui ne remplit pas les condition
