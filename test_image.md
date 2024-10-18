@@ -65,3 +65,8 @@ Les régles s'appliquent! Nous allons maintenant rentrer un mot de passe qui res
 
 Le mot de passe est accepté car il respecte notre politique de mot de passe!
 (Note: dans l'absolu il faudrait egalement éviter le Leap Speak)
+
+6) Configuration sudo
+Mise en place des régles:
+![image](https://github.com/user-attachments/assets/a4e7a0eb-4ba4-4d08-b028-1819e5f673d4)
+
