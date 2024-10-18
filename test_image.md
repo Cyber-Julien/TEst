@@ -67,6 +67,10 @@ Le mot de passe est accepté car il respecte notre politique de mot de passe!
 (Note: dans l'absolu il faudrait egalement éviter le Leap Speak)
 
 6) Configuration sudo
-Mise en place des régles:
-![image](https://github.com/user-attachments/assets/a4e7a0eb-4ba4-4d08-b028-1819e5f673d4)
+entrée de l'utilisateur julien dans le groupe sudo: usermod -aG sudo julien
+création du dossier "/var/log/sudo/" pour accueillir les logs de la commandes sudo
+Mise en place des régles avec la commande visudo :
+![image](https://github.com/user-attachments/assets/4e404482-834a-4929-b19e-bbe4fa30cc6b)
 
+Après quelques utilisations de la commande sudo, voici les log:
+![image](https://github.com/user-attachments/assets/6f733327-3161-44aa-a258-9e653d31cdae)
