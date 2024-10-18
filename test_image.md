@@ -27,4 +27,6 @@ A) Modification du fichier de config /etc/ssh/sshd_config
 systemctl enable ssh
 ![image](https://github.com/user-attachments/assets/829725d5-4dda-487a-8469-f03bee15ff99)
 
+Tentative de connection SSH depuis terminal Powershell sur le port 4242
+![image](https://github.com/user-attachments/assets/c60440ec-af85-480c-a80d-aff8d30f7de6)
 
